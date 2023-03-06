@@ -38,4 +38,4 @@ def check(node: CallExpr, errors: list[Error]) -> None:
             callee=NameExpr(fullname="builtins.print"),
             args=[StrExpr(value="Hello world!")],
         ):
-            errors.append(ErrorYourCheck(node.line, node.column))
+            errors.append(ErrorCallProperty(node.line, node.column))
