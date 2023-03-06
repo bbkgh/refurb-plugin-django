@@ -19,7 +19,7 @@ classifiers = [
 module = "refurb_plugin_django"
 
 [tool.poetry.dependencies]
-refurb = "1.13.0"
+refurb = "^1.13.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"

@@ -36,6 +36,5 @@ def check(node: CallExpr, errors: list[Error]) -> None:
     match node:
         case CallExpr(
             callee=NameExpr(fullname="builtins.print"),
-            args=[StrExpr(value="Hello world!")],
         ):
             errors.append(ErrorCallProperty(node.line, node.column))
