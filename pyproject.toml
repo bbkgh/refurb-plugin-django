@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "refurb-plugin-example"
+name = "refurb-plugin-django"
 version = "1.0.0"
 description = "An example plugin for Refurb"
-authors = ["dosisod"]
+authors = ["Babak Ghadiri"]
 license = "GPL-3.0-only"
 readme = "README.md"
-repository = "https://github.com/dosisod/refurb-plugin-example"
+repository = "https://github.com/Babak Ghadiri/refurb-plugin-django"
 classifiers = [
   "Development Status :: 4 - Beta",
   "Environment :: Console",
@@ -16,7 +16,7 @@ classifiers = [
 ]
 
 [tool.poetry.plugins."refurb.plugins"]
-module = "refurb_plugin_example"
+module = "refurb_plugin_django"
 
 [tool.poetry.dependencies]
 refurb = "1.4.0"
@@ -59,7 +59,7 @@ diff = true
 color = true
 
 [tool.pytest.ini_options]
-addopts = "--cov=refurb_plugin_example --cov-report=html --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=refurb_plugin_django --cov-report=html --cov-report=term-missing --cov-fail-under=100"
 
 [tool.refurb]
 ignore = []

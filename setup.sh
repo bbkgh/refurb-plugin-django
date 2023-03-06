@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -e
-set -o pipefail
 
 old_pkg_name="refurb-plugin-example"
 old_src_name="refurb_plugin_example"
